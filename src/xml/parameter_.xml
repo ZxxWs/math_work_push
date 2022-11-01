@@ -5,12 +5,22 @@
         <pa type="int">β</pa>
     </dis_name>
     <dis_name name="CauchyDistribution">
+        <pa type="double">α</pa>
+        <pa type="double">β</pa>
+    </dis_name>
+
+    <dis_name name="BinomialDistribution">
+
+        <pa type="double">p</pa>
+        <pa type="int">m</pa>
     </dis_name>
     <dis_name name="ChiSquaredDistribution">
+        <pa type="int">自由度</pa>
     </dis_name>
     <dis_name name="EnumeratedDistribution">
     </dis_name>
-    <dis_name name="exponentialDistribution">
+    <dis_name name="ExponentialDistribution">
+        <pa type="double">λ</pa>
     </dis_name>
     <dis_name name="F_Distribution">
         <pa type="int">自由度1</pa>
@@ -24,14 +34,20 @@
         <pa type="double">p</pa>
     </dis_name>
     <dis_name name="GumbelDistribution">
+        <pa type="double">μ</pa>
+        <pa type="double">β</pa>
     </dis_name>
     <dis_name name="HyperGeometricDistribution">
     </dis_name>
     <dis_name name="KolmogorovSmirnovDistribution">
     </dis_name>
     <dis_name name="LaplaceDistribution">
+        <pa type="double">μ</pa>
+        <pa type="double">β</pa>
     </dis_name>
     <dis_name name="LevyDistribution">
+        <pa type="double">u</pa>
+        <pa type="double">c</pa>
     </dis_name>
     <dis_name name="LogisticDistribution">
         <pa type="int">左区间</pa>
@@ -42,30 +58,39 @@
     <dis_name name="MultivariateNormalDistribution">
     </dis_name>
     <dis_name name="NakagamiDistribution">
+        <pa type="double">μ</pa>
+        <pa type="double">ω</pa>
     </dis_name>
     <dis_name name="NormalDistribution">
         <pa type="double">均值</pa>
         <pa type="double">标准差</pa>
     </dis_name>
     <dis_name name="ParetoDistribution">
+        <pa type="int">α</pa>
+        <pa type="int">β</pa>
     </dis_name>
     <dis_name name="PascalDistribution">
+        <pa type="int">成功次数n</pa>
+        <pa type="double">p</pa>
     </dis_name>
     <dis_name name="PoissonDistribution">
         <pa type="int">λ</pa>
     </dis_name>
-
-
     <dis_name name="TDistribution">
         <pa type="int">自由度n</pa>
     </dis_name>
     <dis_name name="TriangularDistribution">
+        <pa type="double">a</pa>
+        <pa type="double">b</pa>
+        <pa type="double">c</pa>
     </dis_name>
     <dis_name name="UniformIntegerDistribution">
     </dis_name>
     <dis_name name="UniformRealDistribution">
     </dis_name>
     <dis_name name="WeibullDistribution">
+        <pa type="double">α</pa>
+        <pa type="double">β</pa>
     </dis_name>
     <dis_name name="ZipfDistribution">
         <pa type="double">数据特征skew</pa>

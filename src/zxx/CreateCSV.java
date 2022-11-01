@@ -21,7 +21,6 @@ import java.util.ArrayList;
 
 public class CreateCSV {
     private String fileName;
-
     public CreateCSV(String distributionName) {
         Date date = new Date();
         SimpleDateFormat ft = new SimpleDateFormat("yyyy_MM_dd_hh_mm_ss");
@@ -30,7 +29,6 @@ public class CreateCSV {
 
     public void setData(ArrayList<Object> arrayList) throws IOException {
         // 从数组取出写入到csv文件里
-        //        System.out.println(this.fileName);
         FileOutputStream fos = new FileOutputStream(this.fileName);
         OutputStreamWriter osw = new OutputStreamWriter(fos, "GBK");
 

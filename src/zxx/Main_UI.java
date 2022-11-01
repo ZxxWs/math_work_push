@@ -59,7 +59,7 @@ public class Main_UI {
         this.init_button();
         this.table1.setFont(new Font("宋体", Font.PLAIN, 26));
         this.table1.setRowHeight(30);
-//       this. table1.setAutoResizeMode(JTable.AUTO_RESIZE_OFF  );
+        //       this. table1.setAutoResizeMode(JTable.AUTO_RESIZE_OFF  );
 
     }
 
@@ -173,8 +173,6 @@ public class Main_UI {
     }
 
 
-
-
     private ArrayList<Object> get_distribution_data(String cname) throws Exception {
         String className = "distributions." + cname;
         String methodName = "getDistributionData";
@@ -214,8 +212,8 @@ public class Main_UI {
         double left = arr[0] - (Math.abs(arr[0]) * 0.01);
         double right = arr[arr.length - 1] + (Math.abs(arr[arr.length - 1]) * 0.01);
 
-        System.out.println(left);
-        System.out.println(right);
+        //        System.out.println(left);
+        //        System.out.println(right);
         //显示图像
         SwingUtilities.invokeLater(() -> {
             Ifreechart ex = new Ifreechart(arr, left, right, disName);
